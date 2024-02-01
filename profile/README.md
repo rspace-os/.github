@@ -1,6 +1,6 @@
-#### 🚧 Exciting news coming up here soon! 🚧 
+#### 🚧 under construction 🚧 
 
-> We’re in the process of updating our GitHub presence, so that you can conveniently find all open-source components and libraries for RSpace.
+> We’re in the process of updating our GitHub presence, so that you can conveniently find all open-source components and libraries for RSpace. In the meantime, read our latest announcement on RSpace going open-source in Q2 2024 🚀https://www.researchspace.com/blog/research-space-announces-transition-of-rspace-to-open-source
 
 # About RSpace 
 RSpace is a research data management platform that integrates tools and services to facilitate the creation and management of FAIR data across the entire research cycle. You can find out more about RSpace and Research Space, the organization behind RSpace, on https://www.researchspace.com.
