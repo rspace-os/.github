@@ -1,6 +1,6 @@
 #### 🚧 under construction 🚧 
 
-> We’re in the process of updating our GitHub presence, so that you can conveniently find all open-source components and libraries for RSpace. In the meantime, read our latest [announcement on RSpace going open-source in Q2 2024 🚀](https://www.researchspace.com/blog/research-space-announces-transition-of-rspace-to-open-source) or sign up to our [🗞️mailing list](https://mailchi.mp/bbfd16a57e72/rspace-open-source).
+> We’re in the process of updating our GitHub presence, so that you can conveniently find all open-source components and libraries for RSpace. In the meantime, read our latest announcements on [RSpace going open-source in Q2 2024 🚀](https://www.researchspace.com/blog/research-space-announces-transition-of-rspace-to-open-source) and on our [community plans](https://www.researchspace.com/blog/building-a-community-for-open-science-and-fair-data), or sign up to our [🗞️mailing list](https://mailchi.mp/bbfd16a57e72/rspace-open-source).
 
 # About RSpace 
 
