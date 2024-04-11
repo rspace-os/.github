@@ -10,7 +10,7 @@
 RSpace is a collaborative research data management platform that interoperates with many tools, services and digital infrastructure researchers and their research organizations already use. It is designed to enable frictionless workflows for the creation and management of FAIR (Findable Accessible Interoperable Reusable) data across the entire research cycle when researchers plan their research, record experimental data, keep track of physical samples, report on their work and share it with their communities.
 <P></P>
 
-You can find out more about RSpace and Research Space, the organization behind RSpace, [here](https://www.researchspace.com).
+You can find out more about RSpace and Research Space, the organization behind RSpace and the maintainer of the RSpace open-source project, [here](https://www.researchspace.com).
 <br clear="right"/>
 ## Getting in touch 
 Thank you for your interest in RSpace. We will provide further details on how to best get in touch soon. If you have any questions in the meantime, feel free to reach out by email. 
