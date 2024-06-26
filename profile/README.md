@@ -10,7 +10,7 @@ You can find out more about RSpace and Research Space, the organization behind R
 <br clear="right"/>
 # 🚧 Construction ahead!
 Thank you for your interest in the RSpace open-source project! We're excited to have you here!
-Releasing RSpace as an open-source project in June 2024 has been huge step for us at Research Space and we likely won't have everything as polished as we'd like it to be in the beginning. Please bear with us as we're taking one step at a time to build an inclusive and efficient contributor experience. If you have any questions, concerns, or ideas how we can improve, don't hesitate to reach out to us 🙏.
+[Releasing RSpace as an open-source project in June 2024](http://www.researchspace.com/blog/research-space-embraces-open-source-to-empower-fair-data-workflows) has been huge step for us at Research Space and we likely won't have everything as polished as we'd like it to be in the beginning. Please bear with us as we're taking one step at a time to build an inclusive and efficient contributor experience. If you have any questions, concerns, or ideas how we can improve, don't hesitate to reach out to us 🙏.
 
 # About the RSpace open-source project
 🗺️ You are currently on the RSpace GitHub organisation page
