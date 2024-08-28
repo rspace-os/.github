@@ -15,13 +15,13 @@ To protect the interests of both contributors and the project, we require contri
  
 ### 🚧 Contribution Workflow 
 To contribute to the project, follow these general steps: 
-1. **⚠️ Reach Out to the Maintainers**: Before diving into work on a contribution, it is strongly recommended to reach out to the project maintainers to discuss your idea or proposed changes. This will help ensure that your efforts are aligned with the project's goals and roadmap. You can contact the maintainers through the communication channels listed in the project 🔜 [wiki](link).
+1. **⚠️ Reach Out to the Maintainers**: Before diving into work on a contribution, it is strongly recommended to reach out to the project maintainers to discuss your idea or proposed changes. This will help ensure that your efforts are aligned with the project's goals and roadmap. You can contact the maintainers through the communication channels listed here or soon in the project 🔜 [wiki](/).
 2. Fork the Repository: Start by forking the project repository to your own GitHub account. This will create a copy of the project under your account. 
 3. Set Up Your Development Environment: Set up your local development environment by following the instructions provided [here](DevDocs/DeveloperNotes/GettingStarted/GettingStarted.md). This may include installing dependencies, configuring the project, and running any necessary initialization steps. 
 4. Choose an Issue: Browse the project's issue tracker or board to find an issue you would like to work on. ⚠️ Please check in with the project maintainers before diving into any work (see Step 1).
 5. Create a Branch: Create a new branch in your forked repository to work on the chosen issue. Give the branch a descriptive name that reflects the purpose of your changes. 
-6. Make Changes: Make the necessary changes to the codebase to address the issue or implement the new feature. Ensure that your changes adhere to the project's coding style and [coding standards](DevDocs/DeveloperNotes/GettingStarted/CodingStandards.md).
-7. Test your changes according to the [testing requirements](DevDocs/DeveloperNotes/GettingStarted/CodingStandards.md#testing)
+6. Make Changes: Make the necessary changes to the codebase to address the issue or implement the new feature. Ensure that your changes adhere to the project's coding style and [coding standards](https://github.com/rspace-os/rspace-web/blob/e4dc2419b7fae43a3f1d648567443ed4cce7afda/DevDocs/DeveloperNotes/GettingStarted/CodingStandards.md).
+7. Test your changes according to the [testing requirements](https://github.com/rspace-os/rspace-web/blob/e4dc2419b7fae43a3f1d648567443ed4cce7afda/DevDocs/DeveloperNotes/GettingStarted/CodingStandards.md#testing)
 8. Commit and Push: Commit your changes with clear and descriptive commit messages. Push your branch to your forked repository. 
 9. Submit a Pull Request: Once your changes are ready, submit a pull request (PR) from your branch to the main project repository. Provide a detailed description of the changes, including any relevant context or reasoning. 
 10. Review and Iterate: The project maintainers will review your PR and provide feedback or request changes if necessary. Engage in constructive discussions and address the feedback accordingly. Iterate on your changes until they meet the project's quality standards. 
