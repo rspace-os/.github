@@ -10,7 +10,7 @@ assignees: ''
 # Feature Request
 
 Thank you for taking the time to raise this feature request! This template is designed to help you communicate your idea clearly and effectively, ensuring that all relevant details are captured for contributors to this open-source project.
-⚠️ Please make sure not to include sensitive or confidential information.
+**⚠️ Please make sure not to include sensitive or confidential information.**
 
 ## Summary
 _A brief summary of the feature you'd like to see._
