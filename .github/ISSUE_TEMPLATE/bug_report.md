@@ -6,9 +6,11 @@ labels: bug
 assignees: tilorspace
 
 ---
+**⚠️ Please make sure not to include sensitive or confidential information.**
 
 **Describe the bug**
-A clear and concise description of what the bug is. ⚠️ Please make sure not to include sensitive or confidential information.
+A clear and concise description of what the bug is. 
+
 
 **To Reproduce**
 Steps to reproduce the behavior:
