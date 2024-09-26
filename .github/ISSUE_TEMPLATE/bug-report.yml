@@ -58,8 +58,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### What device, operating system and browser were you using when you encountered the bug?
-        Desktop (please complete the following information):
+        What device, operating system and browser were you using when you encountered the bug?
+      
 
   - type: dropdown
     id: device
