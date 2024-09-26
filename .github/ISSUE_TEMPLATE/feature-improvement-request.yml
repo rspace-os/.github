@@ -1,0 +1,75 @@
+name: Feature/Improvement request
+description: Suggest an idea for this project
+title: "[IDEA]"
+labels: [enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+
+        Thank you for taking the time to raise this feature request! This template is designed to help you communicate your idea clearly and effectively, ensuring that all relevant details are captured for contributors to this open-source project.
+        **⚠️ Please make sure not to include sensitive or confidential information.**
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A brief summary of the feature you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this feature important? What problem does it solve or what benefit does it provide? And for whom?
+    validations:
+      required: true
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User Story
+      description: As a ..., I want to ...,  so that [job to be done].
+      placeholder: Example, As a researcher, I want to store my RSpace workspace filter settings, so that I can efficiently access my most important documents.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Detailed Description and Requirements
+        Provide a detailed description of the feature. Include any specific requirements or constraints using the MoSCoW method to describe the importance for a given requirement.
+
+  - type: textarea
+    id: must-have
+    attributes:
+      label: Must Have
+      description: Essential requirements for the feature.
+    validations:
+      required: true
+
+  - type: textarea
+    id: should-have
+    attributes:
+      label: Should Have
+      description: Important but not critical requirements.
+    validations:
+      required: false
+
+  - type: textarea
+    id: could-have
+    attributes:
+      label: Could Have
+      description: Nice-to-have features that can be included if time allows.
+    validations:
+      required: false
+
+  - type: textarea
+    id: wont-have
+    attributes:
+      label: Won't Have
+      description: Requirements that are out of scope for
