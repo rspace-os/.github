@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+  - name: RSpace project wiki
+    url: https://github.com/rspace-os/rspace-web/wiki/
+    about: Everything about the RSpace open source project
+  - name: RSpace documentation
+    url: https://documentation.researchspace.com
+    about: Learn more about RSpace in the official documentation
