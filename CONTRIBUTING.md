@@ -15,7 +15,7 @@ To protect the interests of both contributors and the project, we require contri
  
 ### 🚧 Contribution Workflow 
 To contribute to the project, follow these general steps: 
-1. **⚠️ Reach Out to the Maintainers**: Before diving into work on a contribution, it is strongly recommended to reach out to the project maintainers to discuss your idea or proposed changes. This will help ensure that your efforts are aligned with the project's goals and roadmap. You can contact the maintainers through the communication channels listed here or soon in the project 🔜 [wiki](/).
+1. **⚠️ Reach Out to the Maintainers**: Before diving into work on a contribution, it is strongly recommended to reach out to the project maintainers to discuss your idea or proposed changes. This will help ensure that your efforts are aligned with the project's goals and roadmap. You can contact the maintainers through the communication channels listed here or soon in the project [wiki](https://github.com/rspace-os/rspace-web/wiki)).
 2. Fork the Repository: Start by forking the project repository to your own GitHub account. This will create a copy of the project under your account. 
 3. Set Up Your Development Environment: Set up your local development environment by following the instructions provided [here](DevDocs/DeveloperNotes/GettingStarted/GettingStarted.md). This may include installing dependencies, configuring the project, and running any necessary initialization steps. 
 4. Choose an Issue: Browse the project's issue tracker or board to find an issue you would like to work on. ⚠️ Please check in with the project maintainers before diving into any work (see Step 1).
@@ -29,7 +29,7 @@ To contribute to the project, follow these general steps:
  
 ### Communication and Support 
 If you have any questions, encounter issues, or need assistance during the contribution process, we encourage you to reach out for support. You can
-reach out to the project maintainers directly via opensource[@]researchspace.com or the contributor community as described 🔜 [here](link). 
+reach out to the project maintainers directly via opensource[@]researchspace.com or the contributor community as described [here](https://github.com/rspace-os/rspace-web/wiki/Contact). 
  
 ### Conclusion 
 We appreciate your interest in contributing to the RSpace project. Before starting your contributions, make sure to reach out to the project maintainers to ensure alignment with the project's goals. Your contributions play a significant role in facilitating FAIR data workflows, open science and collaborative research. Please remember that you will be prompted to sign the Contributor License Agreement (CLA) before being able to submit your contributions. We look forward to working with you and building a vibrant and inclusive project community! 
