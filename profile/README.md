@@ -20,7 +20,7 @@ Thank you for your interest in the RSpace open-source project! We're excited to 
 - Developer documentation can be found [here](https://github.com/rspace-os/rspace-web/blob/main/DevDocs/DeveloperNotes/GettingStarted/GettingStarted.md).
 - Please read our [contributor information](https://github.com/rspace-os/.github/blob/9548bf3a4513c24f312a18d6bbb9913e80a79e77/CONTRIBUTING.md) for a general overview on how to contribute to this project.
 - Information on how to run RSpace via docker can be found in the [rspace-docker repository](https://github.com/rspace-os/rspace-docker).
-- 🚧 The central hub for project and community related information is the [Wiki](https://github.com/rspace-os/rspace-web/wiki/) located on the [rspace-web repository](https://github.com/rspace-os/rspace-web). 
+- The central hub for project and community related information is the [Wiki](https://github.com/rspace-os/rspace-web/wiki/) located on the [rspace-web repository](https://github.com/rspace-os/rspace-web). 
 - A good starting point to learn about RSpace, its features, and integrations with third party services is the [documentation](https://documentation.researchspace.com/).
 
 # Contact
