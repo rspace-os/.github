@@ -1,4 +1,4 @@
-name: Bug Report
+Bug Report
 description: Describe the bug you encountered to help us improve RSpace.
 title: "[BUG]: "
 labels: ["bug"]
@@ -10,8 +10,7 @@ body:
       value: |
         ## Describe the bug 
         A clear and concise description of what the bug is. 
-        **⚠️ Please make sure not to include sensitive or confidential information.**
-
+        ⚠️ Please make sure not to include sensitive or confidential information.
   - type: textarea
     id: bug-description
     attributes:
@@ -19,20 +18,6 @@ body:
       description: Provide a clear and concise description of the bug.
     validations:
       required: true
-
-  - type: dropdown
-    id: bug-type
-    attributes:
-      label: What type of bug is this?
-      options:
-        - UI/Visual
-        - Functionality
-        - Performance
-        - Security
-        - Other
-    validations:
-      required: true
-
   - type: textarea
     id: reproduction-steps
     attributes:
@@ -45,7 +30,6 @@ body:
         4. See error
     validations:
       required: true
-
   - type: textarea
     id: expected-behavior
     attributes:
@@ -53,162 +37,18 @@ body:
       description: A clear and concise description of what you expected to happen.
     validations:
       required: true
-
-  - type: input
-    id: rspace-version
-    attributes:
-      label: Which RSpace version did you encounter the bug with?
-      placeholder: e.g. 1.101
-    validations:
-      required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ### Environment Information
-
-  - type: dropdown
-    id: device
-    attributes:
-      label: Interface Type
-      description: Where did you encounter this bug?
-      options: 
-        - Mobile
-        - Desktop
-        - API
-    validations:
-      required: true
-
-  - type: input
-    id: mobile-model
-    attributes:
-      label: Mobile Device Model
-      description: What is the model of your mobile device?
-      placeholder: e.g. iPhone 13, Samsung Galaxy S21
-    validations:
-      required: true
-    if: "device == 'Mobile'"
-
-  - type: input
-    id: mobile-os-version
-    attributes:
-      label: Mobile OS Version
-      description: What version of your mobile operating system are you using?
-      placeholder: e.g. iOS 15.4, Android 12
-    validations:
-      required: true
-    if: "device == 'Mobile'"
-
-  - type: input
-    id: desktop-os
-    attributes:
-      label: Desktop Operating System
-      placeholder: e.g. Windows 10, macOS Monterey
-    validations:
-      required: true
-    if: "device == 'Desktop'"
-
-  - type: input
-    id: browser
-    attributes:
-      label: Browser
-      placeholder: e.g. chrome, safari
-    validations:
-      required: true
-    if: "device == 'Mobile' || device == 'Desktop'"
-
-  - type: input
-    id: browser-version
-    attributes:
-      label: Browser version
-      placeholder: e.g. 96.0.4664.110
-    validations:
-      required: true
-    if: "device == 'Mobile' || device == 'Desktop'"
-
-  - type: input
-    id: api-endpoint
-    attributes:
-      label: API Endpoint
-      description: Which API endpoint were you trying to access?
-      placeholder: e.g. /api/v1/documents
-    validations:
-      required: true
-    if: "device == 'API'"
-
-  - type: input
-    id: http-method
-    attributes:
-      label: HTTP Method
-      placeholder: e.g. GET, POST, ...
-    validations:
-      required: true
-    if: "device == 'API'"
-
-  - type: textarea
-    id: request-payload
-    attributes:
-      label: Request Payload
-      description: If applicable, provide the request payload (remember to remove sensitive data)
-      placeholder: |
-        {
-          "key": "value"
-        }
-    validations:
-      required: false
-    if: "device == 'API'"
-
-  - type: textarea
-    id: response-details
-    attributes:
-      label: Response Details
-      description: Provide the response status code and body (remember to remove sensitive data)
-      placeholder: |
-        Status Code: 400
-        
-        Response Body:
-        {
-          "error": "Invalid request"
-        }
-    validations:
-      required: true
-    if: "device == 'API'"
-
-  - type: input
-    id: client-library
-    attributes:
-      label: Client Library/Tool
-      description: What library or tool were you using to make the API request?
-      placeholder: e.g. curl, Postman, python-requests 2.28.1
-    validations:
-      required: false
-    if: "device == 'API'"
-
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
-    validations:
-      required: false
-    if: "device != 'API'"
 
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: Additional Context
-      description: Add any other context about the problem here.
-    validations:
-      required: false
-
-  - type: textarea
-    id: performance-metrics
-    attributes:
-      label: Performance Metrics
-      description: If this is a performance issue, please provide any relevant metrics or measurements.
-      placeholder: |
-        For API: Response time, Rate limits, etc.
-        For UI: Page load time, Resource usage, etc.
-    validations:
-      required: true
-    if: "bug-type == 'Performance'"
+type: input id: rspace-version attributes: label: Which RSpace version did you encounter the bug with? placeholder: e.g. 1.101 validations: required: true
+type: markdown attributes: value: | ### What device, operating system and browser were you using when you encountered the bug?
+type: dropdown id: device attributes: label: Mobile / Desktop options:
+Mobile
+Desktop validations: required: true
+type: input id: os attributes: label: Operating system placeholder: e.g. iOS validations: required: true
+type: input id: browser attributes: label: Browser placeholder: e.g. chrome, safari validations: required: true
+type: input id: browser-version attributes: label: Browser version placeholder: validations: required: true
+type: textarea id: additional-context attributes: label: Additional Context description: Add any other context about the problem here.
