@@ -1,0 +1,82 @@
+name: Add New Issues to Organization Project
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  # Optional: Allow manual trigger
+  workflow_dispatch:
+
+# Top-level permissions specification
+permissions:
+  contents: read
+  issues: write
+  repository-projects: write
+  organization-projects: write
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get date 24 hours ago
+        id: date
+        run: echo "date=$(date -d '24 hours ago' -u '+%Y-%m-%dT%H:%M:%SZ')" >> $GITHUB_OUTPUT
+
+      - name: Get and add new issues
+        uses: actions/github-script@v7
+        with:
+          # Use the default GITHUB_TOKEN
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const query = `query($org: String!, $date: DateTime!) {
+              organization(login: $org) {
+                repositories(first: 100) {
+                  nodes {
+                    issues(first: 100, filterBy: {since: $date}) {
+                      nodes {
+                        id
+                        title
+                        url
+                      }
+                    }
+                  }
+                }
+              }
+            }`;
+            
+            const variables = {
+              org: 'rspace-os',
+              date: process.env.SINCE_DATE
+            };
+            
+            const result = await github.graphql(query, variables);
+            
+            // Project ID for https://github.com/orgs/rspace-os/projects/10
+            const projectId = 'PVT_kwDOAWH6kM4ApKWu'; 
+            
+            for (const repo of result.organization.repositories.nodes) {
+              for (const issue of repo.issues.nodes) {
+                try {
+                  await github.graphql(`
+                    mutation($projectId: ID!, $contentId: ID!) {
+                      addProjectV2ItemById(input: {projectId: $projectId, contentId: $contentId}) {
+                        item {
+                          id
+                        }
+                      }
+                    }
+                  `, {
+                    projectId: projectId,
+                    contentId: issue.id
+                  });
+                  
+                  console.log(`Added issue ${issue.title} (${issue.url}) to project`);
+                } catch (error) {
+                  if (!error.message.includes('DUPLICATE')) {
+                    console.error(`Error adding ${issue.url}: ${error.message}`);
+                  }
+                }
+              }
+            }
+        env:
+          SINCE_DATE: ${{ steps.date.outputs.date }}
