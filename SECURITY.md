@@ -8,5 +8,5 @@ Please EXCLUSIVELY report security vulnerabilities per the instructions given he
 ⚠️ DO NOT DISCLOSE ANY SECURITY VULNERABILITIES on the issue tracker!
 
 ## How to report a bug in RSpace
-If your report is for a bug and not for a security issue, please repot it in the [issue tracker](...). 
+If your report is for a bug and **not for a security issue**, please report it in the [issue tracker](...). 
 If you have a service contract with Research Space, you may also reach out by email via support[@]researchspace.com.
