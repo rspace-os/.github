@@ -1,4 +1,4 @@
-# Contributing to the RSpace open-source
+# Contributing to the RSpace open-source project
 
 Thank you for your interest in contributing to RSpace! Your contributions are valuable and help us advance our mission of fostering open and collaborative scientific research and the FAIRification of research data. This document will guide you through the process of contributing to RSpace. If you have any questions, concerns, or ideas how we can improve, don't hesitate to reach out to us 🙏.
 
