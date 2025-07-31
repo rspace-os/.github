@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: bug-description
     attributes:
-      label: Bug Description
+      label: Observed behavior
       description: Provide a clear and concise description of the bug, including your user's role and group context, when you observed the bug.
     validations:
       required: true
