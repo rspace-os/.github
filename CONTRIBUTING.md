@@ -2,7 +2,7 @@
 
 Thanks for your interest in contributing! 👋
 
-All contribution guidance lives in the **[RSpace Community Playbook](https://github.com/rspace-os/community/blob/main/the%20rspace%20project/README.md)**:
+All contribution guidance lives in the **[Guide to the RSpace Project](https://github.com/rspace-os/community/blob/main/the%20rspace%20project/README.md)**:
 
 → **[Getting Started as a Contributor](https://github.com/rspace-os/community/blob/main/the%20rspace%20project/Guide/contributing/getting-started.md)** — read this before your first contribution
 
