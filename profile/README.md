@@ -24,7 +24,7 @@ RSpace is an open-source research data management platform — a user-friendly f
 
 ## Get Involved
 
-📖 **[Community Playbook](https://github.com/rspace-os/community/blob/main/the%20rspace%20project/README.md)** — your guide to understanding and contributing to RSpace
+📖 **[Guide to the RSpace Project](https://github.com/rspace-os/community/blob/main/the%20rspace%20project/README.md)** — your guide to understanding and contributing to RSpace
 
 🚀 **[Getting Started](https://github.com/rspace-os/community/blob/main/the%20rspace%20project/Guide/contributing/getting-started.md)** — your first contribution, step by step
 
