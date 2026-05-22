@@ -26,5 +26,3 @@ jobs:
           path-to-document: 'https://github.com/rspace-os/.github/blob/main/CLA.md'
           branch: 'main'
           allowlist: mKowalski256,rs-nicof,tuxRamon,vaidap,rs-fraser,nebay-abraha,ll4strw,tchoi-rs,copilot-swe-agent[bot],github-copilot[bot]
-          remote-organization-name: 'rspace-os'
-          remote-repository-name: '.github'        # ← was '.cla'
