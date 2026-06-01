@@ -18,7 +18,7 @@ RSpace is an open-source research data management platform — a user-friendly f
 | [rspace-web](https://github.com/rspace-os/rspace-web) | Main application — Java/Spring backend, React frontend |
 | [rspace-docker](https://github.com/rspace-os/rspace-docker) | Docker-based local setup |
 | [rspace-client-python](https://github.com/rspace-os/rspace-client-python) | Python API client |
-| [community](https://github.com/rspace-os/community) | Community playbook and contributor guides |
+| [community](https://github.com/rspace-os/community) | Community resources and contributor guides |
 
 ---
 
