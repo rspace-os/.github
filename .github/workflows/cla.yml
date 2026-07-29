@@ -20,9 +20,10 @@ jobs:
         uses: contributor-assistant/github-action@v2.3.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.CLA_ASSISTANT_SIGNATURES }}
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.CLA_ASSISTANT_TOKEN }}
         with:
-          path-to-signatures: 'https://github.com/rspace-os/.github/.github/cla/signatures/version1/cla.json'
+          path-to-signatures: 'CLA/signatures/version1/cla.json'
           path-to-document: 'https://github.com/rspace-os/.github/blob/main/CLA.md'
           branch: 'main'
-          allowlist: mKowalski256,rs-nicof,tuxRamon,vaidap,rs-fraser,nebay-abraha,ll4strw,tchoi-rs,copilot-swe-agent[bot],github-copilot[bot]
+          remote-repository-name: '.github'
+          allowlist: mKowalski256,rs-nicof,tuxRamon,nhanlon2,neb,mrowe-tan,vaidap,rs-fraser,nebay-abraha,tchoi-rs,copilot-swe-agent[bot],github-copilot[bot]
